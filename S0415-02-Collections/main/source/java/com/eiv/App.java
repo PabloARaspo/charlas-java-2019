@@ -1,7 +1,6 @@
 package com.eiv;
 
 import java.util.List;
-import java.util.Optional;
 
 public class App {
     
@@ -34,5 +33,4 @@ public class App {
                 .findFirst()
                 .ifPresent(cuota ->System.out.println("Cuota encontrada:" + cuota));
     }
-
 }
